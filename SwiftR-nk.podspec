@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/NareshKalakuntla/SwiftR'
   s.social_media_url = 'http://twitter.com/adamhartford'
   s.authors = { 'Adam Hartford' => 'adam@adamhartford.com'}
-  s.source = { :git => 'https://github.com/adamhartford/SwiftR.git', :tag => "v#{s.version}" }
+  s.source = { :git => 'https://github.com/NareshKalakuntla/SwiftR.git', :tag => "v#{s.version}" }
 
   s.ios.deployment_target = '10.0'
   s.osx.deployment_target = '10.11'
