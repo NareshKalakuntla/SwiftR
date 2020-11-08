@@ -159,7 +159,7 @@ open class SignalR: NSObject, SwiftRWebDelegate {
 
     private func initialize() {
         #if COCOAPODS
-        let bundle = Bundle(identifier: "org.cocoapods.SwiftR")!
+        let bundle = Bundle(identifier: "org.cocoapods.SwiftR-nk")!
         #elseif SWIFTR_FRAMEWORK
         let bundle = Bundle(identifier: "com.adamhartford.SwiftR")!
         #else
